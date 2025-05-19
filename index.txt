@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PlayForge 3D</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎮 PlayForge 3D</h1>
+    <p>Upload and Play 3D Games on the Web</p>
+  </header>
+
+  <main>
+    <section class="game-grid">
+      <!-- Example Game Card -->
+      <div class="game-card">
+        <div class="thumb" style="background-image: url('https://via.placeholder.com/400x225');"></div>
+        <h3>Flappy 3D</h3>
+        <button onclick="openGame('https://yourgameurl.com/flappy3d')">Play</button>
+      </div>
+
+      <div class="game-card">
+        <div class="thumb" style="background-image: url('https://via.placeholder.com/400x225');"></div>
+        <h3>Cube Runner</h3>
+        <button onclick="openGame('https://yourgameurl.com/cuberunner')">Play</button>
+      </div>
+      
+      <!-- Add more games by duplicating this block -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 PlayForge 3D. All rights reserved.</p>
+  </footer>
+</body>
+</html>
